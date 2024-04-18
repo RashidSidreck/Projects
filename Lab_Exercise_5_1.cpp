@@ -9,7 +9,7 @@ int main(){
     
     int number_of_days= rand() % 12;
 
-    if(number_of_days>6&&number_of_days<=10){
+    if(number_of_days>5&&number_of_days<=10){
         cout<<"Your subscription will expire soon. Renew now!"<<endl;
     }
     else if(number_of_days>1&&number_of_days<=5){
