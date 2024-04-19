@@ -18,10 +18,12 @@ int main(){
     else if(value<=5 || value>=10){
         cout<<"You have entere "<<value<<" Please enter a number between 5 and 10"<<endl;
     }
+    
     else{
         cout<<"Your input value("<<value<<") has been accepted"<<endl;
+        break;
     }
-    
      }
+    
      
 }
