@@ -7,6 +7,7 @@ private:
 
 public:
     Rectangle(); 
+    Rectangle(float len, float wid);
     ~Rectangle(); 
 
     void setLength(float len);
@@ -16,6 +17,3 @@ public:
 
     float area() const;
 };
-
-
-
